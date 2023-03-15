@@ -116,7 +116,3 @@ alias gprunesquashmerged='git checkout -q master && git for-each-ref refs/heads/
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-export HOST_IP="$(ip route |awk '/^default/{print $3}')"
-export PULSE_SERVER="tcp:$HOST_IP"
-#export DISPLAY="$HOST_IP:0.0"
