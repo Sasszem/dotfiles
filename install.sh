@@ -21,8 +21,6 @@ install_fonts() {
 }
 
 sudo -u "$SUDO_USER" bash -c "$(declare -f install_fonts); install_fonts"
-cp ./.nanorc ~/
-cp ./.zshrc ~/
 
 # run oh-my-zsh installer
 echo "Setting up omZsh"
